@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 
 function App() {
   return (
     <div className="App">
+      <ThumbUpAltIcon></ThumbUpAltIcon>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
